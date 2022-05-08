@@ -1,0 +1,21 @@
+{
+  "name": "3.6-watch-it",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "wit": "app.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "caporal": "^1.4.0",
+    "chalk": "^5.0.1",
+    "chokidar": "^3.5.3"
+  }
+}
